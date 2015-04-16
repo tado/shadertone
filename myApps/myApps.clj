@@ -5,7 +5,7 @@
 (t/start-fullscreen "myApps/plasma.glsl")
 (t/start-fullscreen "myApps/blobs.glsl")
 (t/start-fullscreen "myApps/noiseSphere.glsl")
-p
+
 (demo 6000 (rlpf (saw [80 81]) (+ (* (lf-noise0 0.25) [40 44]) 100)))
 (demo 30 (rlpf (saw [120 121]) (+ (* (lf-noise2 0.5) [50 54]) 110)))
 (demo 30 (rlpf (saw [120 121]) (+ (* (lf-noise0 1) [60 64]) 30)))
